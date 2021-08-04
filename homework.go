@@ -11,8 +11,7 @@ func main() {
 	)
 	a = 2
 	b = 14
-	operation = "*"
-
+	operation = "*" //change this value to perform different operations
 	switch operation {
 	case "+":
 		fmt.Println("Result is", a+b)
@@ -25,5 +24,4 @@ func main() {
 	default:
 		fmt.Println("Not a valid operation")
 	}
-
 }
